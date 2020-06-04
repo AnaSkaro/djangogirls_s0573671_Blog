@@ -114,3 +114,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#Static_ROOT ist ein Verzeichnis/Dateipfad, ergibt sich durch die Verknüpfung von BASE_DIR und static
+#'static' = String(Untervezeichnis v. B_D) // BASE_DIR = Verzeichnis in dem die Settings Datei liegt
+#(mysite)
+#os.path.join = Funktion die lebt in einem Modul namens "os", Untermodul "path" und die Funktion namens
+#join(wird an den Runden Klammern erkannt, dass Funktion) == also Funktionsaufruf + Parameter
+#Static_ROOT verweist auf das Verzeichnis des Projektes und da drin das unterverzeichnis static
